@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Embeddable
 public class Endereco {
+    
     private String logradouro;
     private String bairro;
     private String cep;
